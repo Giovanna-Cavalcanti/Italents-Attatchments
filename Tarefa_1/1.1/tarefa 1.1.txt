@@ -1,0 +1,16 @@
+﻿*  Receba o valor de um produto e calcule o valor final com um desconto de 10%
+
+
+passo 1: declarar uma variável de “Valor”, “ValorTotal” e “Desconto”, todas essas sendo do tipo “real”
+
+
+passo 2: escrever na tela o pedido para o usuário digitar o valor do produto, guardando em uma variável de “Valor”
+
+
+passo 3: calcular 10 por cento do valor do produto, para isso precisamos fazer a seguinte expressão matemática: (x * 10)/100, onde x representa o valor inicial do produto, e o resultado dessa expressão será guardada na variável “Desconto”
+
+
+passo 4: atribuirmos o valor da variável “ValorTotal”, onde iremos colocar o valor inicial subtraindo o valor de desconto
+
+
+passo 5: mostrar na tela o valor inicial, o valor do desconto e o valor final com desconto.

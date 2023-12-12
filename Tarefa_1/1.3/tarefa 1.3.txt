@@ -1,0 +1,19 @@
+﻿* Receba três números do usuário e os exiba em ordem crescente, para isso: 
+
+
+passo 1: declarar uma variável de vetor chamada “Arr”, duas variáveis de contador que serão “i” e “j”, e por fim uma variável auxiliar chamada “aux”, todas essas do tipo inteiro
+
+
+passo 2: escrever na tela o pedido para o usuário digitar o laor dos números do array, precisaremos de 3 leias que cada um terá o seguinte formato: leia(Arr[x]) sendo x a posição que queremos que o número digitado seja
+
+
+passo 3: criar um laço para, que irá percorrer os três números do vetor que vai usar o número i como contador, e vai repetir o número de vezes equivalente a 3, já que temos 3 números no array
+
+
+passo 4: dentro deste laço iremos criar outro laço, que vai ser idêntico ao de fora, ele vai servir para compararmos cada número do array e vai usar o contador j 
+
+
+passo 5: dentro do segundo laço por fim teremos a condição, quando o primeiro laço entrar na contagem, o laço de dentro vai fazer esta condição três vezes, mas mudando o índice do número que estará sendo comparado. a nossa condição será da seguinte forma: se array[i] for menor que array[j], a variável auxiliar vai receber o valor de array[j], array[j] vai receber o valor de array[i] e por fim array[i] vai receber o valor da variável auxiliar. todo esse processo aconteceria se nossa condição fosse verdadeira, para que a cada iteração e mudança de valores de lugar nós consigamos um array em ordem crescente.
+
+
+passo 6: mostrar o valor do array ordenado.

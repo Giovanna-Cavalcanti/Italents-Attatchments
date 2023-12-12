@@ -1,0 +1,13 @@
+﻿*  Solicite ao usuário que insira uma temperatura em graus Celsius e converta-a para Fahrenheit, para isso
+
+
+passo 1: declarar uma variável de “Celsius”, “Fahrenheit” e, ambas sendo do tipo “real”
+
+
+passo 2: escrever na tela o pedido para o usuário digitar o valor em graus Celsius, guardando na variável “Celsius”
+
+
+passo 3: calcular por meio de uma fórmula matemática a conversão de celsius para fahrenheit, para isso precisamos fazer a seguinte expressão matemática: (x * 9/5) + 32, onde x representa o valor de Celsius, e o resultado dessa expressão será guardada na variável “Fahrenheit”
+
+
+passo 4: mostrar na tela o valor de Celsius, e o valor convertido para fahrenheit.
