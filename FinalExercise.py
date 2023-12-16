@@ -1,16 +1,18 @@
-##jogo dos dados!
-
 import random
 
 print("\n*****Vamos jogar um jogo de dados!*****")
 
 i = (int(input("\nQuantos jogadores vão jogar? ")))
 
-while i <= 0 or i > 6:
+while i <= 0 or i > 10:
   print("\nNúmero de jogadores inválido!")
   i = (int(input("\nQuantos jogadores vão jogar? ")))
 
 j = (int(input("\nQuantas rodadas? ")))
+
+while j <= 0 or j > 6:
+  print("\nNúmero de rodadas inválido!")
+  i = (int(input("\nQuantas rodadas vão jogar? ")))
 
 print("\nVamos começar!")
 
@@ -32,7 +34,7 @@ for _ in range(0, j):
     jogador["pontos"].append(dado1)
 
 #agora vamos checar quem na rodada ganhou, e ordenar os jogadores
-#pela soma do número de rolagens
+#pelo número de vitórias
 
 for jogador in jogadores:
   #vamos somar os pontos de cada jogador
@@ -43,7 +45,6 @@ for jogador in jogadores:
 
 #ordenalos do maior pro menor
 jogadores.sort(key=lambda jogador: jogador["pontos"], reverse=True)
-
 #agora vamos checar quem ganhou, ou se houve empate
 
 print("\n------------------------------------------------")
